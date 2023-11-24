@@ -1,4 +1,4 @@
-/* ************************************************************************** */
+e/* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
@@ -14,9 +14,9 @@
 
 // Cerifica si un carácter es un dígito
 
-int	ft_isdigit(int c)            // Toma como valor un entero 'c'
+int	ft_isdigit(int c)               // Toma como valor un entero 'c'
 {
 	if (c >= '0' && c <= '9')      // Si entra dentro de este rango
-		return (1);                  // Devolverá su valor en 1.
+		return (1);           // Devolverá su valor en 1.
 	return (0);
 }
