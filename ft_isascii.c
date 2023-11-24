@@ -14,9 +14,9 @@
 
 // Verifica si un carácter es un carácter ASCII
 
-int	ft_isascii(int c)            // Toma un valor 'c'
+int	ft_isascii(int c)                   // Toma un valor 'c'
 {
-	if (c >= 0 && c <= 127)       // Si el valor está dentro del rango ASCII
-		return (1);                 // Devolverá 1 si es correcto.
+	if (c >= 0 && c <= 127)            // Si el valor está dentro del rango ASCII
+		return (1);                // Devolverá 1 si es correcto.
 	return (0);
 }
