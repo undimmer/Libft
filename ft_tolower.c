@@ -18,6 +18,6 @@ int	ft_tolower(int a)                  // Toma como argumento 'a'
 
 {
 	if (a >= 'A' && a <= 'Z')           // Si 'a' está dentro del rango establecido
-		return (a + 32);                  // La función devuelve a+32 (es la equivalencia de una mayúscula a minúscula en ASCII)
+		return (a + 32);            // La función devuelve a+32 (es la equivalencia de una mayúscula a minúscula en ASCII)
 	return (a);                         // Si no es mayúscula, simplemente devolverá 'a'
 }
