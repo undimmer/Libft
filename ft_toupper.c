@@ -18,6 +18,6 @@ int	ft_toupper(int c)                  // Toma como argumento c
 
 {
 	if (c >= 'a' && c <= 'z')           // Tomará el valor establecido en este rango
-		return (c - 32);                  // Devolviendo la equivalencia a la inversa de ASCII (a - 32)
-	return (c);                         // Si no es mayúscula, devolverá simplemente "c"
+		return (c - 32);            // Devolviendo la equivalencia a la inversa de ASCII (a - 32)
+	return (c);                        // Si no es mayúscula, devolverá simplemente "c"
 }
