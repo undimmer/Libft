@@ -16,7 +16,7 @@
 
 int	ft_isalpha(int c)                                         // Toma como argumento 'c'
 {
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))       // Aquí verifica si el valor de 'c' está dentro del rango del alfabeto  
-		return (1);                                         // Devolverá 1 si indica que es una letra o un 0 indicando que el caracter no es una letra
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))    // Aquí verifica si el valor de 'c' está dentro del rango del alfabeto  
+		return (1);                                      // Devolverá 1 si indica que es una letra o un 0 indicando que el caracter no es una letra
 	return (0);
 }
